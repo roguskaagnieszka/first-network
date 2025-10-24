@@ -22,7 +22,7 @@ public class FirstNetwork {
             System.out.println("Loopback: " + node.isLoopbackAddress());
             System.out.println("----------------------------------------");
 
-            // ===== REMOTE (always by IP) =====
+            // ===== REMOTE (by IP) =====
             byte[] remoteIpBytes;
             if (looksLikeIPv4(target)) {
                 remoteIpBytes = parseIPv4(target);
